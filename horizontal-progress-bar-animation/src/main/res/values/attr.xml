@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="animated_horizontal_progress_bar">
+        <attr name="progressColors" format="reference" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="intervalSlotEndPoints" format="reference" />
+        <attr name="animationDuration" format="integer" />
+    </declare-styleable>
+</resources>

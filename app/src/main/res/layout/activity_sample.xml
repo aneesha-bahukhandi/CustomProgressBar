@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.android.bahukhandi.aneesha.parsing.customprogressbar.SampleActivity">
+
+    <com.android.bahukhandi.aneesha.parsing.horizontal_progress_bar_animation.AnimatedHorizontalProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_centerInParent="true"
+        android:max="120"
+        app:animationDuration="2500"
+        app:backgroundColor="@color/colorPrimary"
+        app:cornerRadius="4dp"
+        app:intervalSlotEndPoints="@array/intervalSlots"
+        app:progressColors="@array/colorsList" />
+
+</RelativeLayout>
